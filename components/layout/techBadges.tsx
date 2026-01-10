@@ -6,9 +6,7 @@ const infraTech = ["Docker", "GitHub", "Vercel", "AWS", "OAuth"]
 
 export default function TechBadge() {
     return (
-        <div className="px-8 sm:px-10 md:px-20 lg:px-50 xl:px-89 mt-6 flex flex-col gap-6">
-
-
+        <div className=" mt-3 flex flex-col gap-6">
             <div>
                 <p className="text-sm text-muted-foreground">
                     I primarily build modern web applications using
@@ -21,8 +19,6 @@ export default function TechBadge() {
                     ))}
                 </div>
             </div>
-
-
             <div>
                 <p className="text-sm text-muted-foreground">
                     On the backend, I focus on APIs, data modeling, and auth with
@@ -35,7 +31,6 @@ export default function TechBadge() {
                     ))}
                 </div>
             </div>
-
 
             <div>
                 <p className="text-sm text-muted-foreground">
