@@ -47,8 +47,10 @@ export default function Home() {
           <h2 className=" text-sm font-semibold tracking-widest text-neutral-400 ">
             CONTACT
           </h2>
-          <div className="mt-4 ">
-            <Link href={"mailto:jayeshkhuman121@gmail.com"} target="_blank"><Mail className="border text-muted-foreground rounded-full h-9 w-9 p-2" /></Link>
+          <div className="mt-1">
+            <Link className="text-foreground text-sm " href="mailto:jayeshkhuman121@gmail.com" target="_blank">
+             <span className="underline">Email</span> works best for anything serious.
+            </Link>
           </div>
         </div>
       </section>
