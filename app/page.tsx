@@ -2,7 +2,7 @@ import { Navbar } from "@/components/layout/navbar";
 import { ProjectsScroller } from "@/components/layout/projectsScroller";
 import TechBadge from "@/components/layout/techBadges";
 import Work from "@/components/layout/work";
-import { Mail } from "lucide-react";
+
 import Link from "next/link";
 export default function Home() {
   return (
@@ -38,7 +38,9 @@ export default function Home() {
           <h2 className="py-2 text-sm font-semibold tracking-widest text-neutral-400 ">
             ABOUT
           </h2>
-          <p className=" text-sm text-accent-foreground dark:text-neutral-400">I'm drawn to the part of building where things break, don't make sense, and force you to slow down and think. I mostly enjoy working on backend problems, where half-baked logic simply doesn't work and understanding what you're writing actually matters. I don't care much for fake signals or surface-level polish  if I can't understand my own code after some time, I consider it a failure.</p>
+          <p className=" text-sm text-accent-foreground dark:text-neutral-400">
+            I'm drawn to the part of building where things break, don't make sense, and force you to slow down and think. I enjoy working on backend-heavy problems, where incomplete logic quickly falls apart and understanding the system actually matters. I value clarity over surface-level polish — if I can't understand my own code after some time, I consider that something worth fixing.
+          </p>
         </div>
       </section>
 
