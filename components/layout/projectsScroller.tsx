@@ -13,7 +13,7 @@ export function ProjectsScroller() {
     const bounds = containerRef.current!.getBoundingClientRect();
     const center = bounds.x + bounds.width / 2;
     const delta = e.clientX - center;
-    speedRef.current = delta * 0.008;
+    speedRef.current = delta * 0.005;
   }
 
   useEffect(() => {
