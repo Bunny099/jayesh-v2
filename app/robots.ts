@@ -5,6 +5,6 @@ export default function robots():MetadataRoute.Robots{
             userAgent:"*",
             allow:"/"
         },
-        sitemap:"https://jayeshkhuman.in/sitemaps.xml"
+        sitemap:"https://jayeshkhuman.in/sitemap.xml"
     }
 }
