@@ -34,7 +34,7 @@ export const projects = [
     title: "Portfolio-version1",
     tech: "Next.js . Tailwind . Vercel . Github",
     image: "/portfolio1.png",
-    link: "https://jayeshkhuman.in",
+    link: "https://v1-jayesh.vercel.app/",
     github:"https://github.com/Bunny099/jayesh"
   },
 ];
