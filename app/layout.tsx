@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     siteName: "Jayesh Khuman",
     images: [
       {
-        url: "/og.png",
+        url: "/og-portfolio-v2.png",
         width: 1200,
         height: 630,
         alt: "Jayesh Khuman Portfolio"
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     title: "Jayesh Khuman | Software Developer",
     description:
       "Software developer working with modern web technologies and backend-focused thinking.",
-    images: ["/og.png"]
+    images: ["/og-portfolio-v2.png"]
   }
 };
 
