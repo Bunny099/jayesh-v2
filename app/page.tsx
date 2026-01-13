@@ -1,5 +1,5 @@
 import { Navbar } from "@/components/layout/navbar";
-import { ProjectsScroller } from "@/components/layout/projectsScroller";
+import Projects from "@/components/layout/projects";
 import TechBadge from "@/components/layout/techBadges";
 import Work from "@/components/layout/work";
 
@@ -14,7 +14,7 @@ export default function Home() {
         </h2>
       </section>
       <section>
-        <ProjectsScroller />
+        <Projects />
       </section>
 
       <section className="mt-10">
@@ -39,7 +39,7 @@ export default function Home() {
             ABOUT
           </h2>
           <p className=" text-sm text-accent-foreground dark:text-neutral-400">
-            I'm drawn to the part of building where things break, don't make sense, and force you to slow down and think. I enjoy working on backend-heavy problems, where incomplete logic quickly falls apart and understanding the system actually matters. I value clarity over surface-level polish — if I can't understand my own code after some time, I consider that something worth fixing.
+            I'm drawn to the part of building where things break, don't make sense, and force you to slow down and think. I enjoy working on backend-heavy problems, where incomplete logic quickly falls apart and understanding the system actually matters. I value clarity over surface-level polish, if I can't understand my own code after some time, I consider that something worth fixing.
           </p>
         </div>
       </section>
