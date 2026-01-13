@@ -2,7 +2,13 @@
 import { motion } from "framer-motion"
 import { FaGithub } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
-export function ProjectCard({ project }: any) {
+export function ProjectCard({ project,isDraggingRef }: any) {
+  const handleClick = (e:React.MouseEvent)=>{
+    if(isDraggingRef?.current){
+      e.preventDefault();
+      e.stopPropagation();
+    }
+  }
   return (<>
     <div
       className="relative h-65 w-105 overflow-hidden rounded-2xl group "
@@ -19,10 +25,10 @@ export function ProjectCard({ project }: any) {
 
       <div className="absolute top-4 right-4 flex gap-3  opacity-0 group-hover:opacity-100 transition-opacity ">
         {project.github && (
-          <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-white hover:opacity-80"><FaGithub size={18} /></a>
+          <a href={project.github} onClick={handleClick} target="_blank" rel="noopener noreferrer" className="text-white hover:opacity-80"><FaGithub size={18} /></a>
         )}
         {project.link && (
-          <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-white hover:opacity-80"><FiExternalLink size={18} /></a>
+          <a href={project.link} onClick={handleClick} target="_blank" rel="noopener noreferrer" className="text-white hover:opacity-80"><FiExternalLink size={18} /></a>
         )}
       </div>
 
