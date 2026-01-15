@@ -6,7 +6,6 @@ Personal portfolio website showcasing my projects, work, and interests as a soft
 
 ## Tech Stack
 - Next.js (App Router)
-- React
 - TypeScript
 - Tailwind CSS
 - Deployed on Vercel
