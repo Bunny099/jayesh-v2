@@ -36,6 +36,12 @@ export const projects = [
     description: "Personal portfolio showcasing projects and experiments."
   },
   {
+    title: "Order Engine",
+    tech: "Node.js, TypeScript, Express, PostgreSQL, Prisma",
+    github: "https://github.com/Bunny099/amazon",
+    description: "Concurrency-safe order and inventory backend with transactional checkout and stock inventory."
+  },
+  {
     title: "Reservation API",
     tech: "Bun, Express, TypeScript, PostgreSQL, Prisma",
     github: "https://github.com/Bunny099/reservation-api",
