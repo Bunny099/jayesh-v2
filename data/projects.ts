@@ -1,10 +1,11 @@
 export const projects = [
   {
     title: "Prsage",
-    tech: "Node.js, TypeScript, Express, Zod, octokit, github",
+    tech: "TypeScript, Express, Octokit (GitHub App), PostgreSQL, Prisma ORM, Google Gemini API",
+    link:"https://github.com/apps/prsage",
     github: "https://github.com/Bunny099/prsage",
     description:
-      "",
+      "An AI-powered GitHub App that delivers automated, structured, and iteration-aware code reviews directly within pull requests to highlight bugs and improve code quality."
   },
   {
     title: "Dishcover",
