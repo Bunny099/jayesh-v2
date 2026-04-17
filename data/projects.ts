@@ -1,5 +1,12 @@
 export const projects = [
   {
+    title: "Prsage",
+    tech: "Node.js, TypeScript, Express, Zod, octokit, github",
+    github: "https://github.com/Bunny099/prsage",
+    description:
+      "",
+  },
+  {
     title: "Dishcover",
     tech: "Next.js, Node.js, TypeScript, Express, Zod, Lingo.dev",
     link: "https://dishcover-tk3e.vercel.app/",
