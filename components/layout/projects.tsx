@@ -1,9 +1,13 @@
+import { funProjects } from "@/data/funProjects";
 import { projects } from "@/data/projects";
 import Link from "next/link";
 
-export default function Projects() {
+type projectType = {
+    variant: "project" | "funProject"
+}
+export default function Projects(type:projectType) {
     return <div className="px-8 sm:px-10 md:px-20 lg:px-50 xl:px-89 mt-4 flex flex-col gap-8">
-        {projects.map((p, i) => (
+        {type.variant == "project" && projects.map((p, i) => (
             <div key={i} className="flex flex-col gap-2">
                 <div className="flex flex-wrap items-center gap-3">
                     <h3 className="text-base font-medium text-foreground">{p.title}</h3>
@@ -16,6 +20,13 @@ export default function Projects() {
                 </div>
                 <p className="text-sm text-muted-foreground max-w-3xl">{p.description}</p>
                 <p className="text-xs text-neutral-500">{p.tech}</p>
+            </div>
+        ))}
+        {type.variant == "funProject" && funProjects.map((p, i) => (
+            <div key={i} className="flex flex-col gap-2">
+                <div className="flex flex-wrap items-center gap-3">
+                    <h3 className="text-base font-medium text-foreground">{p.title}</h3>
+                </div>
             </div>
         ))}
     </div>

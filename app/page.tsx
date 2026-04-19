@@ -2,7 +2,6 @@ import { Navbar } from "@/components/layout/navbar";
 import Projects from "@/components/layout/projects";
 import TechBadge from "@/components/layout/techBadges";
 import Work from "@/components/layout/work";
-
 import Link from "next/link";
 export default function Home() {
   return (
@@ -14,7 +13,16 @@ export default function Home() {
         </h2>
       </section>
       <section>
-        <Projects />
+        <Projects variant="project" />
+      </section>
+
+      <section className="mt-10">
+        <h2 className=" text-sm font-semibold tracking-widest text-neutral-400 px-8 sm:px-10 md:px-20 lg:px-50 xl:px-89">
+          FUN PROJECTS
+        </h2>
+      </section>
+      <section>
+        <Projects variant="funProject" />
       </section>
 
       <section className="mt-10">
