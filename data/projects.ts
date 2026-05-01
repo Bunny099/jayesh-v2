@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Prsage",
     tech: "TypeScript, Express, Octokit (GitHub App), PostgreSQL, Prisma ORM, Google Gemini API",
-    link:"https://github.com/apps/prsage",
+    link:"https://github.com/marketplace/prsage",
     github: "https://github.com/Bunny099/prsage",
     description:
       "An AI-powered GitHub App that delivers automated, structured, and iteration-aware code reviews directly within pull requests to highlight bugs and improve code quality."
