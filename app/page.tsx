@@ -47,7 +47,7 @@ export default function Home() {
             ABOUT
           </h2>
           <p className=" text-sm text-accent-foreground dark:text-neutral-400">
-            I spend most of my time working through things that don’t make sense at first.
+              Backend-focused engineer interested in transactional systems, automation workflows, developer tooling, and building reliable APIs that handle real-world edge cases.
           </p>
         </div>
       </section>

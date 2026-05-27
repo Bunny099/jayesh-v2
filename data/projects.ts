@@ -1,33 +1,32 @@
 export const projects = [
   {
-    title: "Prsage",
+    title: "PRsage",
     tech: "TypeScript, Express, Octokit (GitHub App), PostgreSQL, Prisma ORM, Google Gemini API",
     link:"https://github.com/marketplace/prsage",
     github: "https://github.com/Bunny099/prsage",
     description:
       "An AI-powered GitHub App that delivers automated, structured, and iteration-aware code reviews directly within pull requests to highlight bugs and improve code quality."
   },
+ 
   {
-    title: "Dishcover",
-    tech: "Next.js, Node.js, TypeScript, Express, Zod, Lingo.dev",
-    link: "https://dishcover-tk3e.vercel.app/",
-    github: "https://github.com/Bunny099/dishcover",
-    description:
-      "DishCover is an intelligent culinary companion designed for the modern nomad. It bridges the gap between cultural curiosity and language barriers by providing deep, structured food intelligence localized instantly via Lingo.dev.",
-  },
-  {
-    title: "Order Engine",
+    title: "Order Flow",
     tech: "Node.js, TypeScript, Express, PostgreSQL, Prisma",
-    github: "https://github.com/Bunny099/amazon",
+    github: "https://github.com/Bunny099/orderflow",
     description:
-      "Concurrency-safe order and inventory backend with transactional checkout and stock inventory.",
-  },
-  {
+      "Transactional e-commerce backend with atomic checkout, inventory reservation, and concurrency-safe stock handling.",
+  }, {
+    title: "CourseHub",
+    tech: "Node.js, TypeScript, Express, PostgreSQL, Prisma, Bcrypt",
+    github: "https://github.com/Bunny099/coursehub",
+    description:
+      "Course platform backend with RBAC, enrollment workflows, and ownership-enforced lesson management.",
+  }
+,{
     title: "Reservation API",
     tech: "Bun, Express, TypeScript, PostgreSQL, Prisma",
     github: "https://github.com/Bunny099/reservation-api",
     description:
-      "Concurrency-safe hotel reservation backend with atomic booking and strict capacity enforcement.",
+      "Concurrency-safe reservation backend with transactional booking flows and strict capacity enforcement.",
   },
   {
     title: "LinkFly",
@@ -35,34 +34,34 @@ export const projects = [
     link: "https://linkfly-three.vercel.app/",
     github: "https://github.com/Bunny099/linkfly",
     description:
-      "AI tool to generate and optimize LinkedIn profiles and posts.",
+      "AI-powered LinkedIn optimization platform with content generation, profile workflows, and authentication systems.",
   },
   {
     title: "Officers",
     tech: "Next.js, TypeScript, PostgreSQL, Prisma, NextAuth",
     link: "https://officers-three.vercel.app/",
     description:
-      "Role-based content and trust management platform for an organization.",
+      "Role-based content management platform with admin workflows, publishing systems, and organizational resources.",
   },
   {
     title: "Keshav-Digital",
     tech: "Next.js, TypeScript, PostgreSQL, Prisma, NextAuth",
     link: "https://keshav-digital.vercel.app",
     github: "https://github.com/Bunny099/keshav-digital",
-    description: "Product management system that streamlined admin workflows.",
+    description: "Business product management platform with inquiry workflows, admin operations, and content management tooling.",
   },
   {
     title: "TimeWise",
     tech: "Next.js, TypeScript, PostgreSQL, Prisma, NextAuth",
     link: "http://timewise-beta.vercel.app/",
     github: "https://github.com/Bunny099/timewise",
-    description: "Full-stack time tracking app with projects and time entries.",
+    description: "Time tracking and reporting platform with project management, authentication, and duration workflows.",
   },
   {
-    title: "Portfolio-version1",
+    title: "Portfolio v1",
     tech: "Next.js, Tailwind CSS, Vercel",
     link: "https://v1-jayesh.vercel.app/",
     github: "https://github.com/Bunny099/jayesh",
-    description: "Personal portfolio showcasing projects and experiments.",
+    description: "Earlier portfolio iteration focused on experiments, animations, and UI exploration.",
   },
 ];

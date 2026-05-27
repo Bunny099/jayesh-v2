@@ -16,19 +16,20 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Jayesh khuman | Software Developer",
+  title: "Jayesh Khuman | Backend Engineer",
   description:
-    "Personal portfolio of Jayesh Khuman, a software developer working with Next.js, React, and modern web technologies. Interested in building reliable systems and solving backend-heavy problems.",
+    "Backend-focused engineer building API systems, transactional workflows, webhook integrations, and AI-powered developer tooling with TypeScript, Node.js, and PostgreSQL.",
   metadataBase: new URL("https://jayeshkhuman.in"),
   keywords: [
     "Jayesh Khuman",
     "Jayesh Khuman Portfolio",
-    "Software Developer",
-    "Next.js",
-    "React.js",
-    "Typescript",
-    "Node.js",
-    "Web Developer",
+    "Backend Engineer",
+    "PostgreSQL",
+    "Express.js",
+    "Developer Tooling",
+    "Webhook Systems", 
+    "API Systems",
+    "Transactional Workflows"
   ],
   authors: [{ name: "Jayesh Khuman", url: "https://jayeshkhuman.in" }],
   creator: "Jayesh Khuman",
@@ -41,9 +42,9 @@ export const metadata: Metadata = {
     apple: "/favicon.ico"
   },
   openGraph: {
-    title: "Jayesh Khuman | Software Developer",
+    title: "Jayesh Khuman | Backend Engineer",
     description:
-      "Portfolio of Jayesh Khuman, a software developer exploring real-world problems through code.",
+      "Portfolio of Jayesh Khuman, a backend engineer focused on APIs, transactional systems, automation workflows, and developer tooling.",
     url: "https://jayeshkhuman.in",
     siteName: "Jayesh Khuman",
     images: [
@@ -59,9 +60,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jayesh Khuman | Software Developer",
+    title: "Jayesh Khuman | Backend Engineer",
     description:
-      "Software developer working with modern web technologies and backend-focused thinking.",
+      "Backend-focused engineer building API systems, transactional workflows, webhook integrations, and AI-powered developer tooling with TypeScript, Node.js, and PostgreSQL.",
     images: ["/og-portfolio-v2.png"]
   }
 };
@@ -91,7 +92,7 @@ export default function RootLayout({
                 "https://www.linkedin.com/in/jayeshkhuman"
                 
               ],
-              jobTitle: "Software Developer"
+              jobTitle: "Backend Engineer"
             })
           }} />
         <ThemeProvider
